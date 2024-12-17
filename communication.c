@@ -8,14 +8,14 @@
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);
 
-const char* ssidMovel = "iPhone de José";
-const char* passwordMovel = "jose0606";
+const char* ssidMovel = "iPhone de José"; //conectar rede
+const char* passwordMovel = "*******";
 
-const char* serverUrlMovel = "http://172.20.10.2:3000/product/event";
+const char* serverUrlMovel = "http://172.20.10.2:3000/product/event"; // url da api com o ip da rede
 
 const char* connectionTesteMovel = "http://172.20.10.2:3000/rfid";
 
-const char* depositId = "5bad4fc3-8562-4f8f-8ef9-e54d3dc602a9";
+const char* depositId = "5bad4fc3-8562-4f8f-8ef9-e54d3dc602a9"; //depósito previamente cadastrado
 
 void setup() {
   Serial.begin(9600);
