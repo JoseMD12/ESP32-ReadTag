@@ -4,7 +4,8 @@ RFID reader firmware for **rfid-tracking**, a prototype for inventory management
 
 | Repository | Role |
 | --- | --- |
-| [tcc-back](https://github.com/JoseMD12/tcc-back) | REST API + WebSocket, business rules and persistence. **Project overview, architecture and data model live there.** |
+| [rfid-tracking](https://github.com/JoseMD12/rfid-tracking) | Parent repository: project overview, architecture and how to run everything |
+| [tcc-back](https://github.com/JoseMD12/tcc-back) | REST API + WebSocket, business rules and persistence |
 | [tcc-front](https://github.com/JoseMD12/tcc-front) | Web dashboard (React) |
 | **ESP32-ReadTag** (this one) | RFID reader firmware (ESP32 + MFRC522) |
 
